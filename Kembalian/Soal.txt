@@ -1,0 +1,33 @@
+Sistem penghitung uang kembalian
+
+Constraint Input pertama:
+
+Mesin hanya menerima total harga yang perlu kamu bayar dengan angka kelipatan 1.000.
+
+Constraint Input kedua:
+
+Karena Uang pecahan yang kamu bawa hanya uang 100.000an. Input angka hanya boleh kelipatan 100.000
+
+Constraint tambahan, input kedua harus lebih besar dari input pertama
+
+Output:
+
+Print uang kembalian yang perlu dikeluarkan dari sistem dengan jumlah pecahan tersedikit
+
+Uang kembalian yang tersedia:
+
+100.000 50.000 20.000 5.000 1.000
+
+Contoh:
+
+67000 100000 -> 20000, 5000, 5000, 1000, 1000, 1000
+
+150000 100000 -> Tidak valid
+
+4500 100000 -> Tidak valid
+
+45000 150000 -> Tidak valid
+
+90000 100000 -> 5000, 5000
+
+5000 200000 -> 100000, 50000, 20000, 20000, 5000
